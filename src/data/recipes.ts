@@ -1,7 +1,7 @@
 
 import { Recipe } from "@/types/recipe";
 
-export const newRecipesData: Recipe[] = [
+export const recipesData: Recipe[] = [
   {
     id: "14",
     slug: "paneer-butter-masala",

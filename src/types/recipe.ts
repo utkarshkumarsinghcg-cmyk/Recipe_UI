@@ -14,7 +14,17 @@ export type Recipe = {
   id: string;
   slug: string;
   title: string;
-  category: "quick-meals" | "plant-based" | "baking-grains" | "soups-stews";
+  category:
+    | "quick-meals"
+    | "plant-based"
+    | "baking-grains"
+    | "soups-stews"
+    | "indian-classics"
+    | "street-food"
+    | "non-vegetarian"
+    | "international"
+    | "breakfast"
+    | "desserts";
   categoryLabel: string;
   cuisine: string;
   prepTime: string;
